@@ -1,0 +1,6 @@
+Alice,85
+Bob,92
+Carol,78
+David,88
+Emma,95
+Class Average: 87.6 | Total Students: 5
