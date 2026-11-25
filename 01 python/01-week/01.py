@@ -22,4 +22,4 @@ result = user_age / 80
 print(f"Formatted result: {result:.4f}\n")
 
 # (e)
-# str 30 3.75 False 
+# str 30 3.75 False

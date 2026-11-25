@@ -26,5 +26,3 @@ print(calculate_grade(100))
 print(calculate_grade(-7))
 print(calculate_grade(500))
 print(calculate_grade(75, 150, 60))
-
-
