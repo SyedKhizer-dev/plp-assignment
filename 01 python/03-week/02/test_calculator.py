@@ -1,5 +1,5 @@
 import pytest
-from calculator import add, sub, mul, div
+from calculator import add, mul, div
 
 
 @pytest.fixture

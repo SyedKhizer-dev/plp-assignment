@@ -37,9 +37,9 @@ def main():
     filtered_df = merge_df[merge_df["word_count"] > 30]
 
     def category(word_count):
-        if word_count <= 30:
+        if word_count <= 50:
             return "Short"
-        elif word_count <= 50:
+        elif word_count <= 80:
             return "Medium"
         else:
             return "Long"

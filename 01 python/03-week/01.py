@@ -39,4 +39,3 @@ def squares_gen(limit):
 
 gen = squares_gen(6)
 print(list(gen))
-

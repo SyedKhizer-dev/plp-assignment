@@ -1,10 +1,17 @@
 import json
 from student_tracker import load_students
+from pathlib import Path
 
 
 def main():
     try:
-        students = load_students("student_tracker/data/students.json")
+        filepath = (
+            Path(__file__).resolve().parent
+            / "student_tracker"
+            / "data"
+            / "students.json"
+        )
+        students = load_students(filepath)
 
         for student in students:
             print(f"Student: {student.name} | Average: {student.average}")
