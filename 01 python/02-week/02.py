@@ -27,6 +27,7 @@ class Magazine(LibraryItem):
 
     def describe(self):
         print("Magazine")
+        print(self.title)
 
 
 book1 = Book("abc", "xyz", 2020, 200, "qwe")
